@@ -1,0 +1,71 @@
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(6, 5, 5);
+    color: aliceblue;
+}
+
+.post {
+    width: 50%;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgb(251, 250, 250);
+}
+
+.post img {
+    width: 100%;
+    margin-top: 2%;
+}
+
+.post h1 {
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    color: rgb(216, 213, 213);    
+}
+
+.post h1:hover{
+    color: rgb(108, 167, 234);
+}
+
+.paginator {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(244, 240, 240);
+    opacity: 1;
+    color: rgb(0, 0, 0);
+}
+
+.paginator .active:hover{
+    text-decoration: underline;
+}
+
+.paginator div {
+    margin: 25px;
+}
+
+.paginator .active {
+    cursor: pointer;
+}
+
+.paginator .disabled {
+    cursor: not-allowed;
+    color: rgb(179, 179, 179);
+}
+
+.heading {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(252, 249, 249);
+    background-color: rgb(7, 7, 7);
+    font-size: 21px;
+    font-variant: small-caps;
+}
+
