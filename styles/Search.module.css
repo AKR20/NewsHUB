@@ -1,0 +1,50 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(6, 5, 5);
+    padding-top: 10px;
+    color: #f9f9f8;
+}
+
+.main input {
+    border-radius: 10px;
+    display: flex;
+    height: 30px;
+    width: 50%;
+    flex-direction: column;
+    justify-content: right;
+    background: linear-gradient(45deg, #f9f9f8, #101010);
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-top: 1%;
+    color: black;
+    font-weight: 600;
+}
+
+.main input:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.main input:active {
+    background-color: #2196F3;
+    color: white;
+}
+
+.main .result {
+    width: 1500px;
+    margin-left: 1250px;
+    margin-right: 490px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: transparent;
+    text-overflow: wrap;
+    background-color: rgb(6, 5, 5);
+}
+
