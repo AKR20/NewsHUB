@@ -1,4 +1,13 @@
 const path = require('path');
+const webpack = require('webpack');
+
+class MyCustomWebpackPlugin {
+  apply(compiler) {
+    compiler.hooks.done.tap('MyCustomWebpackPlugin', () => {
+      console.log('MyCustomWebpackPlugin: build finished!');
+    });
+  }
+}
 
 module.exports = {
   webpack: (config, { isServer }) => {
@@ -22,6 +31,13 @@ module.exports = {
       // Add a custom plugin to the webpack configuration
       config.plugins.push(new MyCustomWebpackPlugin());
     }
+
+    // Define a custom plugin globally for both client and server builds
+    config.plugins.push(
+      new webpack.DefinePlugin({
+        'process.env.CUSTOM_VAR': JSON.stringify('my-custom-value'),
+      })
+    );
 
     return config;
   },
