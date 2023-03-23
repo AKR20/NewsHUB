@@ -1,7 +1,5 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
-
 First, run the development server:
 
 ```bash
@@ -14,21 +12,21 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-HOME
+LANDING PAGE
 
-![Screenshot (798)](https://user-images.githubusercontent.com/95629408/227330373-1cf41f8a-43b9-4f48-bb23-e25a45efb1b2.png)
+![image](https://user-images.githubusercontent.com/95629408/227336324-d302fe4f-7628-4d03-be11-57b47eddcad4.png)
 
 Top HEADLINES
 
-![Screenshot (799)](https://user-images.githubusercontent.com/95629408/227330645-e6816ad8-8998-45eb-a0cb-6a544f31af2a.png)
+![image](https://user-images.githubusercontent.com/95629408/227335927-334fa2d2-64d3-488c-ac21-9482d6e4fc8c.png)
 
-![Screenshot 2023-03-24 005719](https://user-images.githubusercontent.com/95629408/227331133-dba4b80e-d31f-4b37-90db-ef481a35fe4e.png)
+![image](https://user-images.githubusercontent.com/95629408/227335752-80ec1dde-4d58-49e6-825c-ab9c57ae34ab.png)
 
 News by CATEGORY
 
-![Screenshot (800)](https://user-images.githubusercontent.com/95629408/227331366-9aeaadd2-1e88-40e0-a284-5a793c50113d.png)
+![image](https://user-images.githubusercontent.com/95629408/227335675-8db2461c-8a92-4a48-98c7-18e8fb1de710.png)
 
 SEARCH with Debounce and Typehead feature
 
-![Screenshot (801)](https://user-images.githubusercontent.com/95629408/227332436-2c8326bd-0796-431d-9156-b66f033315e8.png)
+![image](https://user-images.githubusercontent.com/95629408/227335590-39e27fe5-6fe4-400b-a08d-16685b065bdb.png)
 
