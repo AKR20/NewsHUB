@@ -20,7 +20,7 @@ Top HEADLINES
 
 ![image](https://user-images.githubusercontent.com/95629408/227335927-334fa2d2-64d3-488c-ac21-9482d6e4fc8c.png)
 
-![image](https://user-images.githubusercontent.com/95629408/227335752-80ec1dde-4d58-49e6-825c-ab9c57ae34ab.png)
+![image](https://user-images.githubusercontent.com/95629408/227337249-7bf37a05-bdcb-468b-b020-4a63ca6fcde1.png)
 
 News by CATEGORY
 
