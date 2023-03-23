@@ -5,9 +5,9 @@ import styles from '@/styles/Home.module.css'
 import { Toolbar } from '@/components/Toolbar'
 import Link from 'next/link'
 
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+  
   return (
     <div className='page-container' >
       <Toolbar/>
